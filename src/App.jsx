@@ -3,6 +3,7 @@ import About from "./components/About";
 import Education from "./components/Education";
 import Skills from "./components/Skills";
 import Contact from "./components/Contact";
+import "./App.css";
 function App() {
   return (
     <>
