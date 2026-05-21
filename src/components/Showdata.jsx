@@ -12,7 +12,7 @@ function Showdata({ users }) {
         {users.map((user) => (
           <div
             key={user.id}
-            className="bg-white/20 backdrop-blur-md border border-white/30 rounded-3xl p-6 shadow-xl hover:scale-105 transition duration-300"
+            className="bg-blue/20 backdrop-blur-md border border-white/30 rounded-3xl p-6 shadow-xl hover:scale-105 transition duration-300"
           >
             <h2 className="text-lg font-bold text-white mb-4 line-clamp-2">
               {user.title}

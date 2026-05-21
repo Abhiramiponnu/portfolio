@@ -2,7 +2,10 @@ import React from "react";
 
 function Home() {
   return (
-    <header className="bg-white flex flex-col justify-center items-center text-center p-12 rounded-lg shadow-md max-w-3xl mx-auto mt-6">
+    <header
+      id="home"
+      className="bg-white flex flex-col justify-center items-center text-center p-12 rounded-lg shadow-md max-w-3xl mx-auto mt-6"
+    >
       <p className="text-lg sm:text-xl text-blue-700 mb-2">
         Welcome To My Portfolio
       </p>

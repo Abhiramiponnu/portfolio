@@ -1,9 +1,8 @@
-// Navbar.jsx
 import React from "react";
 
 function Navbar() {
   return (
-    <nav style={styles.nav}>
+    <nav id="navbar" style={styles.nav}>
       <a href="#home" style={styles.link}>Home</a>
       <a href="#about" style={styles.link}>About</a>
       <a href="#education" style={styles.link}>Education</a>
@@ -20,6 +19,7 @@ const styles = {
     display: "flex",
     justifyContent: "space-around"
   },
+
   link: {
     color: "white",
     textDecoration: "none",
