@@ -13,36 +13,38 @@ const Skills = () => {
   ];
 
   return (
-    <section
-      id="skills"
-      className="bg-gradient-to-br from-blue-100 to-blue-200 py-10 px-4"
-    >
-      <div className="max-w-4xl mx-auto bg-white rounded-3xl shadow-2xl p-8 border border-blue-100">
+    <section style={{ backgroundColor: "#0000FF" }} className="py-10 px-4">
+
+      {/* Main white container */}
+      <div className="max-w-4xl mx-auto bg-white rounded-3xl shadow-2xl p-8 border">
 
         {/* Title */}
-        <div className="mb-8">
-          <h2 className="text-4xl font-extrabold text-blue-700 tracking-wide">
+        <div className="mb-8 text-center">
+          <h2 style={{ color: "#0000FF" }} className="text-4xl font-extrabold">
             Skills
           </h2>
 
-          <div className="w-24 h-1 bg-blue-600 rounded-full mt-2"></div>
+          <div
+            style={{ backgroundColor: "#0000FF" }}
+            className="w-24 h-1 rounded-full mx-auto mt-2"
+          ></div>
         </div>
 
-        {/* Skills Grid */}
-        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-5">
+        {/* Skills */}
+        <div className="flex flex-wrap gap-3 justify-center">
 
           {skills.map((skill, index) => (
             <div
               key={index}
-              className="bg-blue-50 hover:bg-blue-100 border border-blue-200 rounded-2xl p-4 text-center shadow-md hover:shadow-xl transition-all duration-300"
+              style={{ backgroundColor: "#0000FF" }}
+              className="text-white px-5 py-2 rounded-full shadow-sm hover:shadow-md transition-all duration-300"
             >
-              <p className="text-lg font-semibold text-blue-700">
-                {skill}
-              </p>
+              <p className="font-semibold text-sm">{skill}</p>
             </div>
           ))}
 
         </div>
+
       </div>
     </section>
   );

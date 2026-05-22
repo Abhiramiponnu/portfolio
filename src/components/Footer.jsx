@@ -2,10 +2,7 @@ import React from "react";
 
 function Footer() {
   return (
-    <footer
-      id="footer"
-      className="bg-blue-600 text-white text-center p-4"
-    >
+    <footer className="text-white text-center p-4" style={{ backgroundColor: "#0000ff" }}>
       © 2026 Abhirami Portfolio
     </footer>
   );
